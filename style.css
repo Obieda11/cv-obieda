@@ -58,4 +58,41 @@
     border-bottom: 1px solid #ddd;
     padding-bottom: 6px;
   }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    background: #f0f8ff;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  ul li:hover {
+    background: #d0eaff;
+  }
+  
+  #contact a {
+    text-decoration: none;
+    color: #0077cc;
+    margin: 0 5px;
+    font-weight: bold;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+    color: #666;
+  }
   
